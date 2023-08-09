@@ -33,7 +33,8 @@
     <h1>AJAX Quotes</h1>
     <p>A random quote is generated every 5 seconds</p>
     <div id="quoteContainer">Quote goes here</div>
-    <p> We created a page that retrieves random quotes from a PHP server side page using AJAX</p>
+    <p> We created a page that retrieves random quotes from a PHP server side page using AJAX.<br>A quote          on page load, and then at intervals every few seconds.</p>
+    
     <script>
       var counter=0;
       function getRandomQuote(){
